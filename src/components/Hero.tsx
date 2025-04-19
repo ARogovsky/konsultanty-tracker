@@ -2,7 +2,7 @@ import type React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-mipt-purple-dark to-mipt-red py-16 text-white md:py-24">
+    <section className="relative overflow-hidden bg-hero from-mipt-purple-dark to-mipt-red py-16 text-white md:py-24">
       <div className="container relative z-10 mx-auto px-4">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
           <div>

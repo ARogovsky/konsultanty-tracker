@@ -60,3 +60,9 @@ body {
   --chart-4: 280 65% 60%;
   --chart-5: 340 75% 55%;
 }
+
+.bg-hero {
+  background: #444 url('/assets/images/hero-3.jpg') center bottom no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}

@@ -14,7 +14,7 @@ const TeamMember = ({
 }) => {
   return (
     <div className="overflow-hidden rounded-xl bg-white shadow-lg transition-transform hover:scale-105">
-      <img src={image} alt={name} className="h-72 w-full object-cover" />
+      <img src={image} alt={name} className="h-120 w-full object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold text-mipt-purple-dark">{name}</h3>
         <p className="mb-3 text-mipt-pink">{role}</p>
@@ -29,21 +29,21 @@ const TeamSection: React.FC = () => {
     {
       name: 'Александр Иванов',
       role: 'Руководитель программы',
-      image: '/assets/images/team-member-1.png',
+      image: '/assets/images/pic_001.png',
       description:
         'Опытный трекер с более чем 10-летним стажем работы с технологическими стартапами и корпорациями.',
     },
     {
       name: 'Екатерина Смирнова',
       role: 'Ведущий трекер',
-      image: '/assets/images/team-member-2.png',
+      image: '/assets/images/pic_002.png',
       description:
         'Эксперт по работе с инновационными проектами и внутренними стартапами в крупных компаниях.',
     },
     {
       name: 'Михаил Петров',
       role: 'Трекер-методолог',
-      image: '/assets/images/team-member-3.png',
+      image: '/assets/images/pic_003.png',
       description:
         'Специалист по разработке методологий трекинга и автор учебных материалов курса.',
     },
