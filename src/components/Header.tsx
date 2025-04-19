@@ -6,7 +6,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
           <img
-            src="/assets/images/mipt-logo.png"
+            src="/assets/images/logo.png"
             alt="ГО КОНСУЛЬТАНТИ Логотип"
             className="h-10"
           />
