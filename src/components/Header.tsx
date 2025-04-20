@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 w-full bg-mipt-purple-dark py-4">
       <div className="container mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
-          <h1 className="mr-8 text-xl text-white">ГО КОНСУЛЬТАНТИ</h1>
+          <h1 className="mr-8 text-xl text-white"><a href="/">ГО КОНСУЛЬТАНТИ</a></h1>
           <img
             src="/assets/images/logo.png"
             alt="ГО КОНСУЛЬТАНТИ Логотип"

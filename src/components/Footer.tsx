@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
-          <p>© {new Date().getFullYear()} ГО КОНСУЛЬТАНТИ. Всі права захищено. Дата заснування: 02.06.2022</p>
+          <p>© {new Date().getFullYear()} <a href="/">ГО КОНСУЛЬТАНТИ</a>. Всі права захищено. Дата заснування: 02.06.2022</p>
         </div>
       </div>
     </footer>
