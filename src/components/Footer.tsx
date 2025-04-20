@@ -49,24 +49,24 @@ const Footer: React.FC = () => {
             <h3 className="mb-4 text-lg font-bold">Информация</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-white/80 hover:text-white">О программе</a>
+                <a href="/about" className="text-white/80 hover:text-white">О программе</a>
               </li>
               <li>
-                <a href="#program" className="text-white/80 hover:text-white">Учебный план</a>
+                <a href="/program" className="text-white/80 hover:text-white">Учебный план</a>
               </li>
               <li>
-                <a href="#team" className="text-white/80 hover:text-white">Преподаватели</a>
+                <a href="/team" className="text-white/80 hover:text-white">Наша команда</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/reviews" className="text-white/80 hover:text-white">Отзывы выпускников</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
             <h3 className="mb-4 text-lg font-bold">Поддержка</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#contact" className="text-white/80 hover:text-white">Связаться с нами</a>
+                <a href="/contact" className="text-white/80 hover:text-white">Связаться с нами</a>
               </li>
               <li>
                 <a href="/faq" className="text-white/80 hover:text-white">Часто задаваемые вопросы</a>
@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
-          <p>© {new Date().getFullYear()} ГО КОНСУЛЬТАНТИ. Всі права захищені. Дата заснування: 02.06.2022</p>
+          <p>© {new Date().getFullYear()} ГО КОНСУЛЬТАНТИ. Всі права захищено. Дата заснування: 02.06.2022</p>
         </div>
       </div>
     </footer>

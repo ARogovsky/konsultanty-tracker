@@ -1,38 +1,35 @@
 import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-// Page sections
-import Header from './components/Header';
-import Hero from './components/Hero';
-import AboutCourse from './components/AboutCourse';
-import SalaryInfo from './components/SalaryInfo';
-import ProgramDetails from './components/ProgramDetails';
-import TeamSection from './components/TeamSection';
-import OutcomesSection from './components/OutcomesSection';
-import ContactForm from './components/ContactForm';
-import FaqSection from './components/FaqSection';
-import Footer from './components/Footer';
+import Home from './pages/Home'
+import About from './pages/About'
+import Program from './pages/Program'
+import Team from './pages/Team'
+import Faq from './pages/Faq'
+import Contact from './pages/Contact'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
+import NotFound from './pages/NotFound'
 
 function App() {
   useEffect(() => {
-    // Set the document title
     document.title = 'ГО КОНСУЛЬТАНТИ';
   }, []);
 
   return (
-    <div className="flex min-h-screen w-full flex-col bg-mipt-light">
-      <Header />
-      <main>
-        <Hero />
-        <AboutCourse />
-        <SalaryInfo />
-        <ProgramDetails />
-        <TeamSection />
-        <OutcomesSection />
-        <ContactForm />
-        <FaqSection />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='program' element={<Program />} />
+        <Route path='team' element={<Team />} />
+        <Route path='faq' element={<Faq />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='privacy' element={<Privacy />} />
+        <Route path='terms' element={<Terms />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
