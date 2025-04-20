@@ -5,10 +5,9 @@ const Footer: React.FC = () => {
     <footer className="bg-mipt-purple-dark py-12 text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          {/* Logo and Description */}
           <div className="md:col-span-1">
             <img
-              src="/assets/images/mipt-logo.png"
+              src="/assets/images/logo.png"
               alt="ГО КОНСУЛЬТАНТИ Логотип"
               className="mb-4 h-10"
             />
@@ -46,8 +45,6 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-
-          {/* Quick Links */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Информация</h3>
             <ul className="space-y-2">
@@ -65,8 +62,6 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-
-          {/* Support */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Поддержка</h3>
             <ul className="space-y-2">
@@ -84,8 +79,6 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-
-          {/* Contact Info */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Контакты</h3>
             <ul className="space-y-2">
