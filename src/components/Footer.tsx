@@ -6,15 +6,15 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
+            <p className="mb-4 text-white/80">
+              ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — організація для роботи з підприємствами 
+              та інноваційними командами
+            </p>
             <img
               src="/assets/images/logo.png"
               alt="ГО КОНСУЛЬТАНТИ Логотип"
               className="mb-4 h-10"
             />
-            <p className="mb-4 text-white/80">
-              ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — організація для роботи з підприємствами 
-              та інноваційними командами
-            </p>
             <div className="flex space-x-4">
               <a
                 href="https://facebook.com"
