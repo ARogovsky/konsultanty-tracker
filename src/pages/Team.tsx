@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 function Team() {
   useEffect(() => {
-    document.title = 'ГО КОНСУЛЬТАНТИ';
+    document.title = 'Команда | ГО КОНСУЛЬТАНТИ';
   }, []);
 
   return (

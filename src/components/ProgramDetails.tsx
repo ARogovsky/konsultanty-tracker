@@ -28,13 +28,13 @@ const ProgramDetails: React.FC = () => {
     <section id="program" className="bg-gradient-to-b from-mipt-light to-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-bold text-mipt-purple-dark md:text-4xl">
-          Программа школы трекеров МФТИ
+          Програма школи менторів ГО КОНСУЛЬТАНТИ
         </h2>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div>
             <h3 className="mb-6 text-2xl font-bold text-mipt-purple">
-              Пару слов о преимуществах программы
+              Декілька слів про переваги програми
             </h3>
 
             <div className="space-y-6">
@@ -45,9 +45,9 @@ const ProgramDetails: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-mipt-purple-dark">Эксперты-практики</h4>
+                  <h4 className="text-lg font-medium text-mipt-purple-dark">Експерти-практики</h4>
                   <p className="mt-1 text-gray-600">
-                    Обучение ведут практикующие трекеры с опытом работы с крупными компаниями и стартапами
+                    Навчання ведуть практикуючі ментори з досвідом роботи з великими компаніями та стартапами
                   </p>
                 </div>
               </div>
@@ -59,9 +59,9 @@ const ProgramDetails: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-mipt-purple-dark">Реальные кейсы</h4>
+                  <h4 className="text-lg font-medium text-mipt-purple-dark">Реальні кейси</h4>
                   <p className="mt-1 text-gray-600">
-                    Практика с реальными проектами и командами под руководством опытных наставников
+                    Практика з реальними проєктами та командами під керівництвом досвідчених наставників
                   </p>
                 </div>
               </div>
@@ -73,9 +73,9 @@ const ProgramDetails: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-mipt-purple-dark">Государственный диплом</h4>
+                  <h4 className="text-lg font-medium text-mipt-purple-dark">Державний диплом</h4>
                   <p className="mt-1 text-gray-600">
-                    Диплом о профессиональной переподготовке МФТИ государственного образца
+                    Диплом про професійну перепідготовку ГО КОНСУЛЬТАНТИ державного зразка
                   </p>
                 </div>
               </div>
@@ -83,42 +83,42 @@ const ProgramDetails: React.FC = () => {
           </div>
 
           <div className="rounded-xl bg-mipt-purple-dark p-6 text-white md:p-8">
-            <h3 className="mb-6 text-2xl font-bold">Модули программы</h3>
+            <h3 className="mb-6 text-2xl font-bold">Модулі програми</h3>
 
             <div className="space-y-2">
-              <Accordion title="Модуль 1: Основы трекинга">
+              <Accordion title="Модуль 1: Основи менторингу">
                 <ul className="list-inside list-disc space-y-2">
-                  <li>Кто такой трекер и чем он занимается</li>
-                  <li>Инструменты трекера</li>
-                  <li>Методология работы с проектами</li>
-                  <li>Основы коммуникации и фасилитации</li>
+                  <li>Хто такий ментор і чим він займається</li>
+                  <li>Інструменти ментора</li>
+                  <li>Методологія роботи з проєктами</li>
+                  <li>Основи комунікації та фасилітації</li>
                 </ul>
               </Accordion>
 
-              <Accordion title="Модуль 2: Работа с командами">
+              <Accordion title="Модуль 2: Робота з командами">
                 <ul className="list-inside list-disc space-y-2">
-                  <li>Диагностика команд</li>
-                  <li>Выявление проблем и узких мест</li>
-                  <li>Техники фасилитации групповой работы</li>
-                  <li>Управление конфликтами</li>
+                  <li>Діагностика команд</li>
+                  <li>Виявлення проблем і вузьких місць</li>
+                  <li>Техніки фасилітації групової роботи</li>
+                  <li>Управління конфліктами</li>
                 </ul>
               </Accordion>
 
-              <Accordion title="Модуль 3: Метрики и системы оценки">
+              <Accordion title="Модуль 3: Метрики та системи оцінки">
                 <ul className="list-inside list-disc space-y-2">
-                  <li>Определение ключевых показателей</li>
-                  <li>Системы оценки прогресса</li>
-                  <li>Аналитические инструменты</li>
-                  <li>Отчетность и визуализация данных</li>
+                  <li>Визначення ключових показників</li>
+                  <li>Системи оцінки прогресу</li>
+                  <li>Аналітичні інструменти</li>
+                  <li>Звітність та візуалізація даних</li>
                 </ul>
               </Accordion>
 
-              <Accordion title="Модуль 4: Практическая работа">
+              <Accordion title="Модуль 4: Практична робота">
                 <ul className="list-inside list-disc space-y-2">
-                  <li>Работа с реальными проектами</li>
-                  <li>Обратная связь от экспертов</li>
-                  <li>Разбор сложных ситуаций</li>
-                  <li>Подготовка к защите итогового проекта</li>
+                  <li>Робота з реальними проєктами</li>
+                  <li>Зворотний зв'язок від експертів</li>
+                  <li>Розбір складних ситуацій</li>
+                  <li>Підготовка до захисту підсумкового проєкту</li>
                 </ul>
               </Accordion>
             </div>

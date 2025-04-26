@@ -5,70 +5,70 @@ const AboutCourse: React.FC = () => {
     <section id="about" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-bold text-mipt-purple-dark md:text-4xl">
-          Что такое трекинг?
+          Що таке менторинг?
         </h2>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-xl bg-mipt-purple p-8 text-white shadow-lg">
-            <h3 className="mb-4 text-xl font-bold">Кто такой трекер?</h3>
+            <h3 className="mb-4 text-xl font-bold">Хто такий ментор?</h3>
             <p>
-              Трекер — это специалист, который помогает проектным командам
-              и основателям стартапов преодолевать трудности и достигать
-              конкретных результатов.
+              Ментор — це фахівець, який допомагає проєктним командам
+              та засновникам стартапів долати труднощі та досягати
+              конкретних результатів.
             </p>
           </div>
           <div className="rounded-xl bg-violet p-8 text-white shadow-lg">
-            <h3 className="mb-4 text-xl font-bold">Чем занимается трекер?</h3>
+            <h3 className="mb-4 text-xl font-bold">Чим займається ментор?</h3>
             <p>
-              Трекер работает с командами над постановкой целей,
-              созданием планов и выбором правильных метрик для отслеживания
-              прогресса. Он помогает находить узкие места и решать их.
+              Ментор працює з командами над постановкою цілей,
+              створенням планів та вибором правильних метрик для відстеження
+              прогресу. Він допомагає знаходити вузькі місця та вирішувати їх.
             </p>
           </div>
           <div className="rounded-xl bg-mipt-pink p-8 text-white shadow-lg">
-            <h3 className="mb-4 text-xl font-bold">Почему это востребовано?</h3>
+            <h3 className="mb-4 text-xl font-bold">Чому це затребувано?</h3>
             <p>
-              Стартапы и инновационные команды нуждаются в профессиональной поддержке.
-              Трекеры помогают им развиваться быстрее, преодолевать кризисы и
-              превращать идеи в успешные продукты.
+              Стартапи та інноваційні команди потребують професійної підтримки.
+              Ментори допомагають їм розвиватися швидше, долати кризи та
+              перетворювати ідеї на успішні продукти.
             </p>
           </div>
         </div>
 
         <div className="mt-16">
           <h2 className="mb-8 text-center text-3xl font-bold text-mipt-purple-dark md:text-4xl">
-            Для кого подходит курс?
+            Для кого підходить курс?
           </h2>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {/* Target Group 1 */}
             <div className="rounded-lg bg-white p-6 shadow-md">
-              <h3 className="mb-3 font-semibold text-mipt-purple">Для предпринимателей</h3>
+              <h3 className="mb-3 font-semibold text-mipt-purple">Для підприємців</h3>
               <ul className="list-inside list-disc space-y-2">
-                <li>Владельцев бизнеса</li>
-                <li>Основателей стартапов</li>
-                <li>Предпринимателей с опытом</li>
+                <li>Власників бізнесу</li>
+                <li>Засновників стартапів</li>
+                <li>Підприємців з досвідом</li>
               </ul>
             </div>
 
             {/* Target Group 2 */}
             <div className="rounded-lg bg-white p-6 shadow-md">
-              <h3 className="mb-3 font-semibold text-mipt-purple">Для специалистов</h3>
+              <h3 className="mb-3 font-semibold text-mipt-purple">Для фахівців</h3>
               <ul className="list-inside list-disc space-y-2">
-                <li>Проджект-менеджеров</li>
-                <li>Продакт-менеджеров</li>
-                <li>Консультантов по бизнесу</li>
-                <li>Менторов и коучей</li>
+                <li>Проджект-менеджерів</li>
+                <li>Продакт-менеджерів</li>
+                <li>Консультантів з бізнесу</li>
+                <li>Менторів та коучів</li>
               </ul>
             </div>
 
             {/* Target Group 3 */}
             <div className="rounded-lg bg-white p-6 shadow-md">
-              <h3 className="mb-3 font-semibold text-mipt-purple">Для корпораций</h3>
+              <h3 className="mb-3 font-semibold text-mipt-purple">Для корпорацій</h3>
               <ul className="list-inside list-disc space-y-2">
-                <li>HR-специалистов</li>
-                <li>Руководителей инноваций</li>
-                <li>Менеджеров внутренних проектов</li>
+                <li>HR-фахівців</li>
+                <li>Керівників інновацій</li>
+                <li>Менеджерів внутрішніх проєктів</li>
               </ul>
             </div>
           </div>

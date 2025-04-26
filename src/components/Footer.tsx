@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
             <p className="mb-4 text-white/80">
-              ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — організація для роботи з підприємствами 
-              та інноваційними командами
+              ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — Курси підготовки викладачів ВНЗ як менторів для студентських стартапів та інноваційних команд
             </p>
             <img
               src="/assets/images/logo.png"
               alt="ГО КОНСУЛЬТАНТИ Логотип"
               className="mb-4 h-10"
             />
+            {/* Social links hidden per request
             <div className="flex space-x-4">
               <a
                 href="https://facebook.com"
@@ -44,43 +44,47 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
             </div>
+            */}
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-bold">Информация</h3>
+            <h3 className="mb-4 text-lg font-bold">Інформація</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="text-white/80 hover:text-white">О программе</a>
+                <a href="/about" className="text-white/80 hover:text-white">Про програму</a>
               </li>
               <li>
-                <a href="/program" className="text-white/80 hover:text-white">Учебный план</a>
+                <a href="/program" className="text-white/80 hover:text-white">Навчальний план</a>
               </li>
               <li>
                 <a href="/team" className="text-white/80 hover:text-white">Наша команда</a>
               </li>
+              <li>
+                <a href="/pro-bono" className="text-white/80 hover:text-white">Pro Bono</a>
+              </li>
               {/* <li>
-                <a href="/reviews" className="text-white/80 hover:text-white">Отзывы выпускников</a>
+                <a href="/reviews" className="text-white/80 hover:text-white">Відгуки випускників</a>
               </li> */}
             </ul>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-bold">Поддержка</h3>
+            <h3 className="mb-4 text-lg font-bold">Підтримка</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/contact" className="text-white/80 hover:text-white">Связаться с нами</a>
+                <a href="/contact" className="text-white/80 hover:text-white">Зв'язатися з нами</a>
               </li>
               <li>
-                <a href="/faq" className="text-white/80 hover:text-white">Часто задаваемые вопросы</a>
+                <a href="/faq" className="text-white/80 hover:text-white">Часті запитання</a>
               </li>
               <li>
-                <a href="/privacy" className="text-white/80 hover:text-white">Политика конфиденциальности</a>
+                <a href="/privacy" className="text-white/80 hover:text-white">Політика конфіденційності</a>
               </li>
               <li>
-                <a href="/terms" className="text-white/80 hover:text-white">Условия использования</a>
+                <a href="/terms" className="text-white/80 hover:text-white">Умови використання</a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-bold">Контакты</h3>
+            <h3 className="mb-4 text-lg font-bold">Контакти</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <svg className="mr-2 h-5 w-5 flex-shrink-0 text-mipt-pink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
