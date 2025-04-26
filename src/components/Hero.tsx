@@ -14,9 +14,9 @@ const Hero: React.FC = () => {
               стартапам і командам досягати результатів
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <button className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
+              <a href="/contact" className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
                 Записатися на курс
-              </button>
+              </a>
               <a
                 href="#program"
                 className="rounded-lg border border-white px-8 py-3 text-center font-medium text-white hover:bg-white hover:bg-opacity-10"

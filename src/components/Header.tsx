@@ -5,12 +5,13 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 w-full bg-mipt-purple-dark py-4">
       <div className="container mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
-          <h1 className="mr-8 text-xl text-white"><a href="/">ГО КОНСУЛЬТАНТИ</a></h1>
-          <img
-            src="/assets/images/logo.png"
-            alt="ГО КОНСУЛЬТАНТИ Логотип"
-            className="h-10"
-          />
+          <a href="/" aria-label="ГО КОНСУЛЬТАНТИ Головна">
+            <img
+              src="/assets/images/logo.png"
+              alt="ГО КОНСУЛЬТАНТИ Логотип"
+              className="h-10"
+            />
+          </a>
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-8">
@@ -21,9 +22,9 @@ const Header: React.FC = () => {
             <li><a href="/contact" className="text-white hover:text-mipt-orange">Контакти</a></li>
           </ul>
         </nav>
-        <button className="rounded-lg bg-mipt-pink px-6 py-2 font-medium text-white hover:bg-mipt-red">
+        <a href="/contact" className="rounded-lg bg-mipt-pink px-6 py-2 font-medium text-white hover:bg-mipt-red">
           Записатися
-        </button>
+        </a>
       </div>
     </header>
   );

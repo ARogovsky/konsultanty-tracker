@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import ProBono from './pages/ProBono'
+import ThankYou from './pages/ThankYou'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='privacy' element={<Privacy />} />
         <Route path='terms' element={<Terms />} />
         <Route path='pro-bono' element={<ProBono />} />
+        <Route path='thank-you' element={<ThankYou />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

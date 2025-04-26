@@ -24,6 +24,20 @@ module.exports = {
           teal: "#8db1a7",
           light: "#faf8f9",
         },
+        // GOK colors (duplicate of MIPT colors)
+        gok: {
+          purple: {
+            dark: "#200632",
+            DEFAULT: "#450484",
+            light: "#890af6"
+          },
+          red: "#b2483c",
+          pink: "#e75db0",
+          orange: "#ecb457",
+          gray: "#a785aa",
+          teal: "#8db1a7",
+          light: "#faf8f9",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

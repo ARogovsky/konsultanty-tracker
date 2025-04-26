@@ -10,17 +10,17 @@ const SalaryInfo: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="rounded-xl bg-gradient-to-br from-mipt-purple to-mipt-purple-light p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Початківець ментор</h3>
-            <p className="mb-2 text-3xl font-bold">від 2500 ₴/год</p>
+            <p className="mb-2 text-3xl font-bold">25 000 грн</p>
             <p className="text-sm opacity-80">Робота з 1-2 проєктами</p>
           </div>
           <div className="rounded-xl bg-gradient-to-br from-mipt-purple to-mipt-pink p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Досвідчений ментор</h3>
-            <p className="mb-2 text-3xl font-bold">від 10 000 ₴/год</p>
+            <p className="mb-2 text-3xl font-bold">50 000 грн</p>
             <p className="text-sm opacity-80">Портфоліо з 3-5 проєктів</p>
           </div>
           <div className="rounded-xl bg-gradient-to-br from-mipt-purple-light to-mipt-orange p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Провідний ментор</h3>
-            <p className="mb-2 text-3xl font-bold">від 100 000 ₴/міс</p>
+            <p className="mb-2 text-3xl font-bold">150 000 грн</p>
             <p className="text-sm opacity-80">Довгострокові контракти з великими компаніями</p>
           </div>
         </div>
@@ -54,9 +54,9 @@ const SalaryInfo: React.FC = () => {
             </div>
 
             <div className="mt-8 flex justify-center">
-              <button className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
+              <a href="/contact" className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
                 Записатися на курс
-              </button>
+              </a>
             </div>
           </div>
         </div>

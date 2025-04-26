@@ -9,7 +9,7 @@ function NotFound() {
   }, []);
 
   return (
-    <div className="flex min-h-screen w-full flex-col bg-mipt-light">
+    <div className="bg-mipt-light">
       <Header />
       <main>
         <div>404 - Page NotFound</div>
