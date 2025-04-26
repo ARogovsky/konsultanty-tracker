@@ -1,0 +1,11 @@
+export { default as Home } from './Home';
+export { default as About } from './About';
+export { default as Program } from './Program';
+export { default as Team } from './Team';
+export { default as Faq } from './Faq';
+export { default as Contact } from './Contact';
+export { default as Privacy } from './Privacy';
+export { default as Terms } from './Terms';
+export { default as ProBono } from './ProBono';
+export { default as ThankYou } from './ThankYou';
+export { default as NotFound } from './NotFound'; 

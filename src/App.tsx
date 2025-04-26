@@ -1,17 +1,19 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './pages/Home'
-import About from './pages/About'
-import Program from './pages/Program'
-import Team from './pages/Team'
-import Faq from './pages/Faq'
-import Contact from './pages/Contact'
-import Privacy from './pages/Privacy'
-import Terms from './pages/Terms'
-import ProBono from './pages/ProBono'
-import ThankYou from './pages/ThankYou'
-import NotFound from './pages/NotFound'
+import {
+  Home,
+  About,
+  Program,
+  Team,
+  Faq,
+  Contact,
+  Privacy,
+  Terms,
+  ProBono,
+  ThankYou,
+  NotFound
+} from './pages'
 
 function App() {
   useEffect(() => {
