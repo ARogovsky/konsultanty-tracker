@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
                 <a href="/privacy" className="text-white/80 hover:text-white">Політика конфіденційності</a>
               </li>
               <li>
-                <a href="/terms" className="text-white/80 hover:text-white">Умови використання</a>
+                <a href="/cookie-policy" className="text-white/80 hover:text-white">Політика використання cookies</a>
               </li>
             </ul>
           </div>
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
-          <p>© {new Date().getFullYear()} <a href="/">ГО КОНСУЛЬТАНТИ</a>. Всі права захищено.</p>
+          <p>© {new Date().getFullYear()} <a href="/">ГО КОНСУЛЬТАНТИ</a>. Всі права захищені.</p>
         </div>
       </div>
     </footer>
