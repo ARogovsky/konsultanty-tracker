@@ -7,30 +7,23 @@ const SalaryInfo: React.FC = () => {
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
           Сколько зарабатывает трекер?
         </h2>
-
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          {/* Salary Card 1 */}
           <div className="rounded-xl bg-gradient-to-br from-mipt-purple to-mipt-purple-light p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Начинающий трекер</h3>
             <p className="mb-2 text-3xl font-bold">от 2500 ₽/час</p>
             <p className="text-sm opacity-80">Работа с 1-2 проектами</p>
           </div>
-
-          {/* Salary Card 2 */}
           <div className="rounded-xl bg-gradient-to-br from-mipt-purple to-mipt-pink p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Опытный трекер</h3>
             <p className="mb-2 text-3xl font-bold">от 10 000 ₽/час</p>
             <p className="text-sm opacity-80">Портфель из 3-5 проектов</p>
           </div>
-
-          {/* Salary Card 3 */}
-          <div className="rounded-xl bg-gradient-to-br from-mipt-red to-mipt-orange p-8 text-center shadow-lg">
+          <div className="rounded-xl bg-gradient-to-br from-mipt-purple-light to-mipt-orange p-8 text-center shadow-lg">
             <h3 className="mb-4 text-lg font-medium">Ведущий трекер</h3>
             <p className="mb-2 text-3xl font-bold">от 100 000 ₽/мес</p>
             <p className="text-sm opacity-80">Долгосрочные контракты с крупными компаниями</p>
           </div>
         </div>
-
         <div className="mt-16">
           <h3 className="mb-8 text-center text-2xl font-bold">
             Программа школы трекеров МФТИ

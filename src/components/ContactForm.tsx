@@ -16,7 +16,6 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here would be the form submission logic
     console.log('Form submitted:', formData);
     alert('Заявку відправлено! Ми зв\'яжемося з вами найближчим часом.');
     setFormData({ name: '', email: '', phone: '', comment: '' });

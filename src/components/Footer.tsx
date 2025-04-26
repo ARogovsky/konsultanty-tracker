@@ -5,17 +5,16 @@ const Footer: React.FC = () => {
     <footer className="bg-mipt-purple-dark py-12 text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          {/* Logo and Description */}
           <div className="md:col-span-1">
-            <img
-              src="/assets/images/mipt-logo.png"
-              alt="ГО КОНСУЛЬТАНТИ Логотип"
-              className="mb-4 h-10"
-            />
             <p className="mb-4 text-white/80">
               ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — організація для роботи з підприємствами 
               та інноваційними командами
             </p>
+            <img
+              src="/assets/images/logo.png"
+              alt="ГО КОНСУЛЬТАНТИ Логотип"
+              className="mb-4 h-10"
+            />
             <div className="flex space-x-4">
               <a
                 href="https://facebook.com"
@@ -46,32 +45,28 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-
-          {/* Quick Links */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Информация</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-white/80 hover:text-white">О программе</a>
+                <a href="/about" className="text-white/80 hover:text-white">О программе</a>
               </li>
               <li>
-                <a href="#program" className="text-white/80 hover:text-white">Учебный план</a>
+                <a href="/program" className="text-white/80 hover:text-white">Учебный план</a>
               </li>
               <li>
-                <a href="#team" className="text-white/80 hover:text-white">Преподаватели</a>
+                <a href="/team" className="text-white/80 hover:text-white">Наша команда</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/reviews" className="text-white/80 hover:text-white">Отзывы выпускников</a>
-              </li>
+              </li> */}
             </ul>
           </div>
-
-          {/* Support */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Поддержка</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#contact" className="text-white/80 hover:text-white">Связаться с нами</a>
+                <a href="/contact" className="text-white/80 hover:text-white">Связаться с нами</a>
               </li>
               <li>
                 <a href="/faq" className="text-white/80 hover:text-white">Часто задаваемые вопросы</a>
@@ -84,8 +79,6 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-
-          {/* Contact Info */}
           <div>
             <h3 className="mb-4 text-lg font-bold">Контакты</h3>
             <ul className="space-y-2">
@@ -113,7 +106,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
-          <p>© {new Date().getFullYear()} ГО КОНСУЛЬТАНТИ. Всі права захищені. Дата заснування: 02.06.2022</p>
+          <p>© {new Date().getFullYear()} <a href="/">ГО КОНСУЛЬТАНТИ</a>. Всі права захищено. Дата заснування: 02.06.2022</p>
         </div>
       </div>
     </footer>

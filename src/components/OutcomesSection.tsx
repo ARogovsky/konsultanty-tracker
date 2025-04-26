@@ -94,7 +94,7 @@ const OutcomesSection: React.FC = () => {
               который подтвердит ваши навыки и компетенции трекера.
             </p>
             <img
-              src="/assets/images/diploma.png"
+              src="/assets/images/certificate.jpg"
               alt="Диплом МФТИ"
               className="mx-auto h-32 object-contain"
             />

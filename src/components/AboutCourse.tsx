@@ -9,7 +9,6 @@ const AboutCourse: React.FC = () => {
         </h2>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Feature Card 1 */}
           <div className="rounded-xl bg-mipt-purple p-8 text-white shadow-lg">
             <h3 className="mb-4 text-xl font-bold">Кто такой трекер?</h3>
             <p>
@@ -18,9 +17,7 @@ const AboutCourse: React.FC = () => {
               конкретных результатов.
             </p>
           </div>
-
-          {/* Feature Card 2 */}
-          <div className="rounded-xl bg-mipt-red p-8 text-white shadow-lg">
+          <div className="rounded-xl bg-violet p-8 text-white shadow-lg">
             <h3 className="mb-4 text-xl font-bold">Чем занимается трекер?</h3>
             <p>
               Трекер работает с командами над постановкой целей,
@@ -28,8 +25,6 @@ const AboutCourse: React.FC = () => {
               прогресса. Он помогает находить узкие места и решать их.
             </p>
           </div>
-
-          {/* Feature Card 3 */}
           <div className="rounded-xl bg-mipt-pink p-8 text-white shadow-lg">
             <h3 className="mb-4 text-xl font-bold">Почему это востребовано?</h3>
             <p>
