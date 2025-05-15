@@ -10,12 +10,11 @@ const Hero: React.FC = () => {
               ГО КОНСУЛЬТАНТИ
             </h1>
             <p className="mb-8 text-lg md:text-xl">
-              Опануйте затребувану професію ментора та почніть допомагати
-              стартапам і командам досягати результатів
+              Ваш провідний партнер з стратегічного курсу на перетворення університетів і наукових установ на активних учасників інноваційного процесу та економічного відновлення України
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <a href="/contact" className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
-                Записатися на курс
+                Вступити в членство
               </a>
               <a
                 href="#program"
