@@ -1,6 +1,6 @@
 export { default as Home } from './Home';
 export { default as About } from './About';
-export { default as Program } from './Program';
+export { default as Service } from './Service';
 export { default as Team } from './Team';
 export { default as Faq } from './Faq';
 export { default as Contact } from './Contact';
