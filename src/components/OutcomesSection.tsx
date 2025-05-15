@@ -18,10 +18,10 @@ const OutcomesSection: React.FC = () => {
     <section className="bg-gradient-to-b from-white to-mipt-light py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="mb-4 text-center text-3xl font-bold text-mipt-purple-dark md:text-4xl">
-          За підсумками навчання ви отримаєте
+          Бенефіти членства
         </h2>
         <p className="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
-          Знання та навички, необхідні для успішної кар'єри ментора та допомоги проєктним командам
+          Статус активних учасників інноваційного процесу та економічного відновлення України
         </p>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -56,8 +56,8 @@ const OutcomesSection: React.FC = () => {
           />
 
           <OutcomeCard
-            title="Сертифікат про навчання"
-            description="Сертифікат ГО КОНСУЛЬТАНТИ, що підтверджує вашу кваліфікацію"
+            title="Участь у мережі"
+            description="Відповідно до постанови Кабінету Міністрів України від 23 квітня 2024 року № 430"
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
@@ -88,10 +88,9 @@ const OutcomesSection: React.FC = () => {
 
         <div className="mt-16 flex justify-center">
           <div className="rounded-xl bg-mipt-purple-dark p-8 text-center text-white md:max-w-2xl">
-            <h3 className="mb-4 text-2xl font-bold">А також сертифікат про навчання</h3>
+            <h3 className="mb-4 text-2xl font-bold">А також сертифікат державного зразка</h3>
             <p className="mb-6">
-              Після закінчення курсу ви отримаєте сертифікат ГО КОНСУЛЬТАНТИ,
-              який підтвердить ваші навички та компетенції ментора.
+              Ви отримаєте сертифікат, який підтвердить ваші навички та компетенції участника у інноваційному процесі.
             </p>
             <img
               src="/assets/images/certificate.jpg"

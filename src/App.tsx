@@ -5,7 +5,7 @@ import CookieConsent from 'react-cookie-consent';
 import {
   Home,
   About,
-  Program,
+  Service,
   Team,
   Faq,
   Contact,
@@ -38,7 +38,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
-        <Route path='program' element={<Program />} />
+        <Route path='service' element={<Service />} />
         <Route path='team' element={<Team />} />
         <Route path='faq' element={<Faq />} />
         <Route path='contact' element={<Contact />} />

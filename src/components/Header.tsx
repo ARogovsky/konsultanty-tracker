@@ -15,8 +15,8 @@ const Header: React.FC = () => {
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-8">
-            <li><a href="/about" className="text-white hover:text-mipt-orange">Про курс</a></li>
-            <li><a href="/program" className="text-white hover:text-mipt-orange">Програма</a></li>
+            <li><a href="/about" className="text-white hover:text-mipt-orange">Про членство</a></li>
+            <li><a href="/service" className="text-white hover:text-mipt-orange">Послуги</a></li>
             <li><a href="/team" className="text-white hover:text-mipt-orange">Команда</a></li>
             <li><a href="/faq" className="text-white hover:text-mipt-orange">Питання та відповіді</a></li>
             <li><a href="/contact" className="text-white hover:text-mipt-orange">Контакти</a></li>

@@ -1,23 +1,23 @@
 import { useEffect } from 'react';
 
 import Header from '../components/Header';
-import ProgramDetails from '../components/ProgramDetails';
+import ServiceDetails from '../components/ServiceDetails';
 import Footer from '../components/Footer';
 
-function Program() {
+function Service() {
   useEffect(() => {
-    document.title = 'ГО КОНСУЛЬТАНТИ';
+    document.title = 'Послуги | ГО КОНСУЛЬТАНТИ';
   }, []);
 
   return (
     <div className="bg-mipt-light">
       <Header />
       <main>
-        <ProgramDetails />
+        <ServiceDetails />
       </main>
       <Footer />
     </div>
   );
 }
 
-export default Program;
+export default Service;

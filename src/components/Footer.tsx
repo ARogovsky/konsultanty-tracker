@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-1">
             <p className="mb-4 text-white/80">
-              ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — Курси підготовки викладачів ВНЗ як менторів для студентських стартапів та інноваційних команд
+              ГО КОНСУЛЬТАНТИ — провідний партнер експериментального проєкту щодо створення на базі закладів вищої освіти, наукових установ мережі стартап-шкіл — інкубаторів — акселераторів
             </p>
             <img
               src="/assets/images/logo.png"
@@ -50,10 +50,10 @@ const Footer: React.FC = () => {
             <h3 className="mb-4 text-lg font-bold">Інформація</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="text-white/80 hover:text-white">Про програму</a>
+                <a href="/about" className="text-white/80 hover:text-white">Про членство</a>
               </li>
               <li>
-                <a href="/program" className="text-white/80 hover:text-white">Навчальний план</a>
+                <a href="/service" className="text-white/80 hover:text-white">Послуги</a>
               </li>
               <li>
                 <a href="/team" className="text-white/80 hover:text-white">Наша команда</a>
