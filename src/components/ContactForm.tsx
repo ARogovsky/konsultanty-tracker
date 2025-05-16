@@ -20,15 +20,15 @@ const ContactForm: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-6 text-center text-3xl font-bold md:text-4xl">
-            Подати заявку на участь у програмі
+            Заява на вступ до ГО Консультанти
           </h2>
           <p className="mb-10 text-center text-lg">
-            Наша некомерційна програма безкоштовно готує викладачів ВНЗ як менторів для студентських стартапів
+            Заповніть форму, щоб приєднатися до національної мережі стартап-шкіл, інкубаторів та акселераторів.
           </p>
 
           <div className="grid gap-8 md:grid-cols-2">
             <div>
-              <h3 className="mb-6 text-2xl font-bold">Процес участі</h3>
+              <h3 className="mb-6 text-2xl font-bold">Процес вступу</h3>
               <ol className="space-y-6">
                 <li className="flex">
                   <div className="mr-4 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-mipt-pink text-lg font-bold">
@@ -37,7 +37,7 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h4 className="mb-1 text-lg font-medium">Подайте заявку</h4>
                     <p className="text-white/80">
-                      Заповніть форму, і координатор програми зв'яжеться з вами
+                      Заповніть форму, і наш координатор зв'яжеться з вами для уточнення деталей
                     </p>
                   </div>
                 </li>
@@ -49,7 +49,7 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h4 className="mb-1 text-lg font-medium">Пройдіть співбесіду</h4>
                     <p className="text-white/80">
-                      Ми обговоримо вашу роботу у ВНЗ та мотивацію участі в програмі
+                      Ми обговоримо ваші цілі, мотивацію та можливості участі у мережі
                     </p>
                   </div>
                 </li>
@@ -59,9 +59,9 @@ const ContactForm: React.FC = () => {
                     3
                   </div>
                   <div>
-                    <h4 className="mb-1 text-lg font-medium">Отримайте підтвердження участі</h4>
+                    <h4 className="mb-1 text-lg font-medium">Отримайте підтвердження членства</h4>
                     <p className="text-white/80">
-                      Після відбору ми надішлемо вам запрошення та інформацію про початок навчання
+                      Після відбору ми надішлемо вам підтвердження та інформацію про наступні кроки
                     </p>
                   </div>
                 </li>
@@ -71,9 +71,9 @@ const ContactForm: React.FC = () => {
                     4
                   </div>
                   <div>
-                    <h4 className="mb-1 text-lg font-medium">Почніть навчання</h4>
+                    <h4 className="mb-1 text-lg font-medium">Станьте учасником</h4>
                     <p className="text-white/80">
-                      Беріть участь у програмі та розвивайте навички менторингу для студентських стартапів
+                      Долучайтеся до спільноти, отримуйте підтримку та розвивайте інновації разом з нами
                     </p>
                   </div>
                 </li>
@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
                 style={{ height: '400px' }}
               ></div>
               <p className="mt-4 text-center text-xs text-white/60">
-                Участь у програмі є повністю безкоштовною для співробітників ВНЗ
+                Вступ до членства відкритий для ВНЗ, студентів та професорів, які прагнуть розвивати інновації
               </p>
             </div>
           </div>

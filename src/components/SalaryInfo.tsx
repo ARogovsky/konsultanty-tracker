@@ -41,7 +41,7 @@ const SalaryInfo: React.FC = () => {
         </div>
         <div className="mt-16">
           <h3 className="mb-8 text-center text-2xl font-bold">
-            Що дає членство у ГО "Консультанти
+            Що дає членство у ГО Консультанти
           </h3>
 
           <div className="rounded-xl bg-white/10 p-6 backdrop-blur-sm md:p-8">

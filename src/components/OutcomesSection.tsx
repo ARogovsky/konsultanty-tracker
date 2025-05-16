@@ -18,16 +18,16 @@ const OutcomesSection: React.FC = () => {
     <section className="bg-gradient-to-b from-white to-mipt-light py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="mb-4 text-center text-3xl font-bold text-mipt-purple-dark md:text-4xl">
-          Бенефіти членства
+          Переваги членства
         </h2>
         <p className="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
-          Статус активних учасників інноваційного процесу та економічного відновлення України
+          Ми допомагаємо ВНЗ долучитися до національної мережі стартап-шкіл, інкубаторів та акселераторів
         </p>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <OutcomeCard
-            title="Роботу з реальними проєктами"
-            description="Практичний досвід менторингу стартап-команд під керівництвом досвідчених фахівців"
+            title="Швидкий старт"
+            description="Ми проведемо вас через усі етапи - від ідеї до затвердження МОН, з урахуванням ваших ресурсів."
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -36,8 +36,8 @@ const OutcomesSection: React.FC = () => {
           />
 
           <OutcomeCard
-            title="Набір інструментів ментора"
-            description="Методики та інструменти для діагностики команд, виявлення проблем та допомоги в їх вирішенні"
+            title="Набір інструментів"
+            description="Шаблони, методики та чек-листи для запуску власної стартап-школи, інкубатора та акселератора."
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
@@ -46,8 +46,8 @@ const OutcomesSection: React.FC = () => {
           />
 
           <OutcomeCard
-            title="Навички фасилітації"
-            description="Вміння структурувати та спрямовувати групову роботу, керувати обговореннями та конфліктами"
+            title="Реальні результати"
+            description="Ми допоможемо запустити пілотні проєкти, щоб показати конкретні досягнення вашого ВНЗ."
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -66,8 +66,8 @@ const OutcomesSection: React.FC = () => {
           />
 
           <OutcomeCard
-            title="Мережу професійних контактів"
-            description="Знайомство з практикуючими менторами, засновниками стартапів та експертами ринку"
+            title="Партнерства для росту"
+            description="ми з’єднаємо вас із менторами та експертами, які підтримають розвиток вашого ВНЗ."
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -76,8 +76,8 @@ const OutcomesSection: React.FC = () => {
           />
 
           <OutcomeCard
-            title="Можливість працевлаштування"
-            description="Рекомендації для роботи в стартапах, акселераторах, інноваційних відділах корпорацій"
+            title="Фінансова підтримка"
+            description="Допомагаємо створювати університетські венчурні фонди для підтримки стартапів."
             icon={
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />

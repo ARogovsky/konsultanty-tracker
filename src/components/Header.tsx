@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           </ul>
         </nav>
         <a href="/contact" className="rounded-lg bg-mipt-pink px-6 py-2 font-medium text-white hover:bg-mipt-red">
-          Записатися
+          Приєднатися
         </a>
       </div>
     </header>
