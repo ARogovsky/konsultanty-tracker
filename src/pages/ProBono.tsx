@@ -3,6 +3,16 @@ import { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+const skills = [
+  { group: 'Стратегія й планування', details: 'Розробка дорожньої карти стартап-школи, постановка KPI' },
+  { group: 'Фінанси та звітність', details: 'Бюджетування, підготовка фінансових звітів для МОН і донорів' },
+  { group: 'Проєктний менеджмент', details: 'Керування програмами pre-seed → серія B, ресурсне планування' },
+  { group: 'Побудова команди', details: 'Формування внутрішньої команди та координація зовнішніх менторів' },
+  { group: 'Партнерства й переговори', details: 'Ведення переговорів з інвесторами та міжнародними донорами' },
+  { group: 'Аналітика й моніторинг', details: 'Збір і аналіз даних, створення дашбордів для оцінки ефективності' },
+  { group: 'Юридичні аспекти', details: 'Держбюджетні процедури, грантові правила (Horizon 2020/Europe), IP' },
+];
+
 const ProBono: React.FC = () => {
   useEffect(() => {
     // Set the document title
@@ -10,17 +20,13 @@ const ProBono: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-mipt-light">
+    <div className="bg-mipt-light min-h-screen flex flex-col">
       <Header />
-      <main>
-        <section className="bg-mipt-purple-dark py-16 text-white md:py-24">
+      <main className="flex-1">
+        <section className="bg-mipt-purple-dark py-16 text-white text-center">
           <div className="container mx-auto px-4">
-            <h1 className="mb-6 text-center text-4xl font-bold md:text-5xl">
-              Pro Bono
-            </h1>
-            <p className="mx-auto mb-8 max-w-3xl text-center text-lg md:text-xl">
-              Безкоштовна підготовка менторів для ВНЗ України
-            </p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Pro Bono</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6">Безкоштовна підготовка директорів стартап-шкіл для ВНЗ України</h2>
           </div>
           
           {/* Abstract decorative elements */}
@@ -28,108 +34,105 @@ const ProBono: React.FC = () => {
           <div className="bg-mipt-purple-light opacity-20 blur-3xl" />
         </section>
 
-        <section className="py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="mx-auto max-w-3xl">
-              <h2 className="bg-mipt-purple-dark md:text-4xl">
-                Наша місія
-              </h2>
-              <p className="mb-10 text-lg text-gray-700">
-                ГО КОНСУЛЬТАНТИ — це некомерційна організація, яка працює на розвиток інноваційної екосистеми України. Одним із ключових напрямків нашої діяльності є безкоштовна підготовка співробітників вищих навчальних закладів у якості менторів для студентських стартапів.
-              </p>
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <h3 className="text-2xl font-bold text-mipt-purple-dark mb-4">Наша місія</h3>
+            <p className="text-lg text-gray-700 mb-6">
+              ГО «КОНСУЛЬТАНТИ» — неприбуткова організація, що розвиває інноваційне середовище в Україні. Ми безкоштовно навчаємо співробітників вищих навчальних закладів, які очолюють або планують очолити стартап-школи, інкубатори та акселератори.
+            </p>
+          </div>
+        </section>
 
-              <div className="mb-16 rounded-xl bg-white p-8 shadow-lg">
-                <h3 className="bg-mipt-purple">Чому це важливо?</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <div className="bg-mipt-pink p-2 text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="bg-mipt-purple-dark">Розвиток інноваційного потенціалу</h4>
-                      <p className="mt-1 text-gray-600">
-                        Студенти мають багато ідей, але часто їм не вистачає досвіду та наставництва для перетворення цих ідей у реальні проєкти.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li className="flex items-start">
-                    <div className="bg-mipt-pink p-2 text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="bg-mipt-purple-dark">Співпраця науки та бізнесу</h4>
-                      <p className="mt-1 text-gray-600">
-                        Викладачі та наукові співробітники університетів мають глибокі знання, які можуть допомогти студентам розвивати інноваційні проєкти з практичною цінністю.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li className="flex items-start">
-                    <div className="bg-mipt-pink p-2 text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="bg-mipt-purple-dark">Підвищення якості освіти</h4>
-                      <p className="mt-1 text-gray-600">
-                        Впровадження менторських програм в університетах дозволяє студентам отримувати практичний досвід та розвивати підприємницькі навички.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+        <section className="py-12 bg-mipt-light">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h3 className="text-2xl font-bold text-mipt-purple-dark mb-8 text-center">Чому це важливо?</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="rounded-xl bg-white p-6 shadow-md flex flex-col items-center">
+                <span className="text-4xl mb-4">📈</span>
+                <h4 className="font-semibold text-lg mb-2">Підсилення управління</h4>
+                <p className="text-gray-700 text-center">Директори отримують навички стратегічного планування, бюджетування і звітності за держгрантами.</p>
               </div>
-
-              <h2 className="bg-mipt-purple-dark md:text-4xl">
-                Наша Pro Bono програма
-              </h2>
-              <p className="mb-8 text-lg text-gray-700">
-                Ми пропонуємо безкоштовне навчання для співробітників українських ВНЗ, які хочуть стати менторами для студентських стартап-проєктів. Програма включає всі необхідні інструменти та методики для ефективної роботи зі студентськими командами.
-              </p>
-
-              <div className="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2">
-                <div className="bg-mipt-purple p-8 text-white shadow-lg">
-                  <h3 className="mb-4 text-xl font-bold">Для кого?</h3>
-                  <ul className="list-inside list-disc space-y-2">
-                    <li>Викладачів університетів</li>
-                    <li>Наукових співробітників</li>
-                    <li>Керівників студентських лабораторій</li>
-                    <li>Співробітників інноваційних центрів ВНЗ</li>
-                    <li>Координаторів студентських програм</li>
-                  </ul>
-                </div>
-
-                <div className="bg-mipt-pink p-8 text-white shadow-lg">
-                  <h3 className="mb-4 text-xl font-bold">Що включає програма?</h3>
-                  <ul className="list-inside list-disc space-y-2">
-                    <li>Онлайн-навчання основам менторингу</li>
-                    <li>Практичні семінари та воркшопи</li>
-                    <li>Інструменти для роботи зі студентськими командами</li>
-                    <li>Методики відбору та розвитку проєктів</li>
-                    <li>Підтримку від досвідчених менторів</li>
-                  </ul>
-                </div>
+              <div className="rounded-xl bg-white p-6 shadow-md flex flex-col items-center">
+                <span className="text-4xl mb-4">🚀</span>
+                <h4 className="font-semibold text-lg mb-2">Якісна підтримка стартапів</h4>
+                <p className="text-gray-700 text-center">Від відбору MVP до масштабування: учасники опанують Lean Startup, Design Thinking та інші методики супроводу команд.</p>
               </div>
-
-              <div className="bg-mipt-purple-dark p-8 text-center text-white">
-                <h3 className="mb-4 text-2xl font-bold">Як приєднатися?</h3>
-                <p className="mb-6">
-                  Якщо ви працюєте в українському університеті та зацікавлені у програмі, 
-                  зв'яжіться з нами для отримання детальної інформації.
-                </p>
-                <a 
-                  href="/contact" 
-                  className="bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90"
-                >
-                  Подати заявку
-                </a>
+              <div className="rounded-xl bg-white p-6 shadow-md flex flex-col items-center">
+                <span className="text-4xl mb-4">🤝</span>
+                <h4 className="font-semibold text-lg mb-2">Мережеві зв'язки</h4>
+                <p className="text-gray-700 text-center">Навчимо налагоджувати партнерства з інвесторами, фондами та міжнародними програмами (Horizon, COST).</p>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h3 className="text-2xl font-bold text-mipt-purple-dark mb-8 text-center">Ключові компетенції випускника</h3>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-mipt-purple-dark rounded-xl overflow-hidden">
+                <thead>
+                  <tr className="bg-mipt-purple-dark text-white">
+                    <th className="py-3 px-4 text-left font-semibold">Група навичок</th>
+                    <th className="py-3 px-4 text-left font-semibold">Конкретні вміння</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {skills.map((skill) => (
+                    <tr key={skill.group} className="even:bg-mipt-light">
+                      <td className="py-3 px-4 font-medium text-mipt-purple-dark">{skill.group}</td>
+                      <td className="py-3 px-4 text-gray-700">{skill.details}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 bg-mipt-light">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h3 className="text-2xl font-bold text-mipt-purple-dark mb-8 text-center">Програма навчання</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="rounded-xl bg-white p-6 shadow-md">
+                <h4 className="font-semibold text-lg mb-2">Онлайн-модулі</h4>
+                <ul className="list-disc pl-5 text-gray-700">
+                  <li>Стратегічне керівництво стартап-школою</li>
+                  <li>Методи відбору та прискорення стартапів</li>
+                </ul>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-md">
+                <h4 className="font-semibold text-lg mb-2">Практичні воркшопи</h4>
+                <ul className="list-disc pl-5 text-gray-700">
+                  <li>Реальні кейси інкубації й акселерації</li>
+                  <li>Робота з фінансовими та юридичними документами</li>
+                </ul>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-md">
+                <h4 className="font-semibold text-lg mb-2">Інструменти</h4>
+                <ul className="list-disc pl-5 text-gray-700">
+                  <li>Шаблони бюджетів, метрик і дашбордів</li>
+                  <li>Методики Lean Startup, Design Thinking</li>
+                </ul>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-md">
+                <h4 className="font-semibold text-lg mb-2">Менторська підтримка</h4>
+                <ul className="list-disc pl-5 text-gray-700">
+                  <li>Супровід від досвідчених директорів акселераторів</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <h3 className="text-2xl font-bold text-mipt-purple-dark mb-8 text-center">Для кого?</h3>
+            <ul className="list-disc pl-5 text-lg text-gray-700 space-y-2">
+              <li>Проректори з інновацій і наукової роботи</li>
+              <li>Керівники стартап-шкіл, інкубаторів, акселераторів</li>
+              <li>Менеджери інноваційних центрів ВНЗ</li>
+            </ul>
           </div>
         </section>
       </main>
