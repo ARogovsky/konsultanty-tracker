@@ -1,5 +1,5 @@
 import type React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // FAQ Item Component
 const FaqItem = ({ question, answer }: { question: string; answer: string }) => {
@@ -25,6 +25,19 @@ const FaqItem = ({ question, answer }: { question: string; answer: string }) => 
 };
 
 const FaqSection: React.FC = () => {
+  useEffect(() => {
+    // Load the Typeform embed script
+    const script = document.createElement('script');
+    script.src = "//embed.typeform.com/next/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup the script when component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const faqItems = [
     {
       question: 'Як ВНЗ може долучитися до мережі стартап-шкіл, інкубаторів та акселераторів?',
@@ -68,12 +81,16 @@ const FaqSection: React.FC = () => {
             <p className="mb-6 text-lg text-gray-600">
               Не знайшли відповідь на своє запитання? Зв'яжіться з нами напряму
             </p>
-            <a
-              href="#contact"
-              className="inline-block rounded-lg bg-mipt-purple px-8 py-3 font-medium text-white hover:bg-mipt-purple-dark"
-            >
-              Поставити запитання
-            </a>
+            <div className="rounded-xl bg-white/10 p-6 backdrop-blur-sm">
+              <div 
+                data-tf-live="01JVKYS9NVN8MER92N9NCMCPQF"
+                className="rounded-xl overflow-hidden"
+                style={{ height: '400px' }}
+              ></div>
+              <p className="mt-4 text-center text-xs text-gray-600">
+                Наші експерти готові відповісти на всі ваші запитання
+              </p>
+            </div>
           </div>
         </div>
       </div>

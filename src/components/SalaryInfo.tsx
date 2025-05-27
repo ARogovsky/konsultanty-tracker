@@ -70,7 +70,7 @@ const SalaryInfo: React.FC = () => {
 
             <div className="mt-8 flex justify-center">
               <a href="/contact" className="rounded-lg bg-mipt-pink px-8 py-3 font-medium text-white hover:bg-opacity-90">
-                Вступити в членство
+                Приєднатися
               </a>
             </div>
           </div>

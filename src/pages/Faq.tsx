@@ -14,6 +14,7 @@ function Faq() {
       <Header />
       <main>
         <FaqSection />
+        <div data-tf-live="01JVPK84FQBQCYT6QEF38HBJF6"></div>
       </main>
       <Footer />
     </div>

@@ -39,8 +39,8 @@ const ProBono: React.FC = () => {
             <h3 className="text-2xl font-bold text-mipt-purple-dark mb-4">Наша місія</h3>
             <p className="text-lg text-gray-700 mb-6">
               ГО «КОНСУЛЬТАНТИ» — неприбуткова організація, що розвиває інноваційне середовище в Україні. Ми безкоштовно навчаємо співробітників вищих навчальних закладів, які очолюють або планують очолити стартап-школи, інкубатори та акселератори.
-            </p>
-          </div>
+                      </p>
+                    </div>
         </section>
 
         <section className="py-12 bg-mipt-light">
@@ -62,8 +62,8 @@ const ProBono: React.FC = () => {
                 <h4 className="font-semibold text-lg mb-2">Мережеві зв'язки</h4>
                 <p className="text-gray-700 text-center">Навчимо налагоджувати партнерства з інвесторами, фондами та міжнародними програмами (Horizon, COST).</p>
               </div>
-            </div>
-          </div>
+                    </div>
+                    </div>
         </section>
 
         <section className="py-12 bg-white">
@@ -86,8 +86,8 @@ const ProBono: React.FC = () => {
                   ))}
                 </tbody>
               </table>
-            </div>
-          </div>
+                    </div>
+                    </div>
         </section>
 
         <section className="py-12 bg-mipt-light">
@@ -106,14 +106,14 @@ const ProBono: React.FC = () => {
                 <ul className="list-disc pl-5 text-gray-700">
                   <li>Реальні кейси інкубації й акселерації</li>
                   <li>Робота з фінансовими та юридичними документами</li>
-                </ul>
-              </div>
+                  </ul>
+                </div>
               <div className="rounded-xl bg-white p-6 shadow-md">
                 <h4 className="font-semibold text-lg mb-2">Інструменти</h4>
                 <ul className="list-disc pl-5 text-gray-700">
                   <li>Шаблони бюджетів, метрик і дашбордів</li>
                   <li>Методики Lean Startup, Design Thinking</li>
-                </ul>
+                  </ul>
               </div>
               <div className="rounded-xl bg-white p-6 shadow-md">
                 <h4 className="font-semibold text-lg mb-2">Менторська підтримка</h4>
