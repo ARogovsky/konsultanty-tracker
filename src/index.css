@@ -62,7 +62,7 @@ body {
 }
 
 .bg-hero {
-  background: #444 url('/assets/images/hero-3.jpg') center bottom no-repeat;
+  background: #444 url('/assets/images/hero-3.webp') center bottom no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
 }

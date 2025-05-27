@@ -10,9 +10,11 @@ const Footer: React.FC = () => {
               ГРОМАДСЬКА ОРГАНІЗАЦІЯ «КОНСУЛЬТАНТИ» — Курси підготовки викладачів ВНЗ як менторів для студентських стартапів та інноваційних команд
             </p>
             <img
-              src="/assets/images/logo.png"
+              src="/assets/images/logo.webp"
               alt="ГО КОНСУЛЬТАНТИ Логотип"
               className="mb-4 h-10"
+              width="160"
+              height="40"
             />
             {/* Social links hidden per request
             <div className="flex space-x-4">

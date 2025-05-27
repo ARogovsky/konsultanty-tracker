@@ -14,7 +14,7 @@ const TeamMember = ({
 }) => {
   return (
     <div className="overflow-hidden rounded-xl bg-white shadow-lg transition-transform hover:scale-105">
-      <img src={image} alt={name} className="h-120 w-full object-cover" />
+      <img src={image} alt={name} className="h-120 w-full object-cover" width="400" height="480" />
       <div className="p-6">
         <h3 className="text-xl font-bold text-mipt-purple-dark">{name}</h3>
         <p className="mb-3 text-mipt-pink">{role}</p>
@@ -29,21 +29,21 @@ const TeamSection: React.FC = () => {
     {
       name: 'Антоніна Осипенко',
       role: 'Продуктовий дизайнер',
-      image: '/assets/images/pic_001.png',
+      image: '/assets/images/pic_001.webp',
       description:
         'Досвідчений CXO з більш ніж 25-річним стажем роботи з технологічними компаніями та стартапами.',
     },
     {
       name: 'Андрій Роговський',
       role: 'Провідний ментор',
-      image: '/assets/images/pic_002.png',
+      image: '/assets/images/pic_002.webp',
       description:
         'Експерт з роботи з інноваційними проєктами та внутрішніми стартапами в технологічних компаніях.',
     },
     {
       name: 'Ірина Кабакова',
       role: 'Методолог фандрейзингу',
-      image: '/assets/images/pic_003.png',
+      image: '/assets/images/pic_003.webp',
       description:
         'Спеціаліст з розробки методологій фандрейзингу та генеральний директор інвестиційної компанії.',
     },

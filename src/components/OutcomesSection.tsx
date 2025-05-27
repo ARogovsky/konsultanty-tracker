@@ -94,9 +94,11 @@ const OutcomesSection: React.FC = () => {
               який підтвердить ваші навички та компетенції ментора.
             </p>
             <img
-              src="/assets/images/certificate.jpg"
+              src="/assets/images/certificate.webp"
               alt="Сертифікат ГО КОНСУЛЬТАНТИ"
               className="mx-auto h-32 object-contain"
+              width="320"
+              height="128"
             />
           </div>
         </div>

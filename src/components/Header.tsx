@@ -7,9 +7,11 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <a href="/" aria-label="ГО КОНСУЛЬТАНТИ Головна">
             <img
-              src="/assets/images/logo.png"
+              src="/assets/images/logo.webp"
               alt="ГО КОНСУЛЬТАНТИ Логотип"
               className="h-10"
+              width="160"
+              height="40"
             />
           </a>
         </div>

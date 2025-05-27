@@ -27,9 +27,11 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="/assets/images/hero-image.png"
+              src="/assets/images/hero-image.webp"
               alt="KONSULTANTY"
               className="w-full max-w-lg"
+              width="512"
+              height="512"
             />
           </div>
         </div>
@@ -37,7 +39,7 @@ const Hero: React.FC = () => {
 
       {/* Abstract decorative elements */}
       <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-mipt-pink opacity-20 blur-3xl" />
-      <div className="absolute -bottom-32 -left-32 h-96 w-96 rounded-full bg-mipt-purple-light opacity-20 blur-3xl" />
+      <div className="absolute -bottom-10 -left-10 sm:-bottom-32 sm:-left-32 h-60 w-60 sm:h-96 sm:w-96 rounded-full bg-mipt-purple-light opacity-20 blur-3xl" />
     </section>
   );
 };
